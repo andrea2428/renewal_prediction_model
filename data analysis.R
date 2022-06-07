@@ -10,19 +10,9 @@
 library('corrplot')
 library('ggplot2')
 library("readxl")
-# library(nortest) ##JJ: ovaj paket se ne koristi
 library('GGally')
 library("plyr")
-## JJ: paketi u nastavku su nepotrebni za ovaj skript
-## treba ih prebaciti u onaj skript gde se stvarno koriste
-# library(randomForest)
-# library(caret)
-# library(e1071)
-# library(ROCR)
-# library(pROC)
-# library(rpart)
-# library(rpart.plot)
-# library(arules)
+
 
 #Ucitavanje dataseta
 dataset <- read_excel("Dataset - Copy.xlsx")
